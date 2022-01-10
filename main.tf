@@ -12,7 +12,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "gracepoint"
+    organization = "test-org"
 
     workspaces {
       name = "gh-actions-demo"
